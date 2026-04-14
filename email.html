@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <title>Email</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+  Helix Solutions — Secure Mail
+</div>
+
+<div class="content email-body">
+
+  <a class="back-link" href="index.html">← Back to Inbox</a>
+
+  <div id="email"></div>
+
+</div>
+
+<script src="emails.js"></script>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+const email = emails.find(e => e.id === id);
+
+const container = document.getElementById("email");
+
+if (email) {
+  container.innerHTML = `
+    <h2>${email.subject}</h2>
+    <p>
+      <b>From:</b> ${email.sender}<br>
+      <b>Date:</b> ${email.date}
+    </p>
+    <hr>
+    ${email.body}
+  `;
+} else {
+  container.innerHTML = "<p>Email not found.</p>";
+}
+</script>
+
+</body>
+
+</html>

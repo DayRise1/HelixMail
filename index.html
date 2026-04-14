@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <title>Helix Mail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+  Helix Solutions — Secure Mail
+</div>
+
+<div class="main">
+
+  <div class="sidebar">
+    <ul>
+      <li>Inbox</li>
+      <li>Sent</li>
+      <li>Drafts</li>
+      <li>Archive</li>
+      <li>Trash</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div id="inbox"></div>
+  </div>
+
+</div>
+
+<script src="emails.js"></script>
+
+<script>
+const inbox = document.getElementById("inbox");
+
+emails.forEach(email => {
+  inbox.innerHTML += `
+    <div class="email-item ${email.unread ? "unread" : ""}">
+      <a class="email-link" href="email.html?id=${email.id}">
+        <span class="subject">${email.subject}</span><br>
+        <span class="sender">${email.sender}</span>
+        <span class="date">${email.date}</span>
+      </a>
+    </div>
+  `;
+});
+</script>
+
+</body>
+</html>
