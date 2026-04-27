@@ -1,5 +1,24 @@
 ﻿const emails = [
   {
+    id: "Since you still have them...",
+    subject: "Since you still have them...",
+    sender: "<b>Phineas Murdoch</b> (alfonse@bostonshairdos.com)",
+    date: "Apr 9",
+    unread: true,
+    body: `
+     <p>Hey Jonas, </p>
+<p>I hope you&#39;re doing well, my friend. Things out here are tough. That Abstergo warehouse in Nevada was exactly what we thought it was and we managed to delay it – at least for now. We&#39;re hanging in there though, cover&#39;s still intact and no one the wiser.</p>
+<p>Anyway, down to business. We found another commonality in that group you&#39;re sheltering. If they&#39;re willing to head back into the Animus, we&#39;d love for them to investigate a Piece of Eden their ancestors interacted with in 1883. Let me know if they can and I&#39;ll send more notes. </p>
+<p>Stay safe. </p>
+<blockquote>
+<p>NIT;EIP</p>
+<p>Phineas</p>
+</blockquote>
+
+    `
+  },
+
+  {
     id: "ADB Update 4/8/2026",
     subject: "ADB Update 4/8/2026",
     sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
