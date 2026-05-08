@@ -26,6 +26,28 @@ While on the subject of hope, I hope you&#39;re doing okay out there – it&#39;
        `
   },
 
+   {
+    id: "Check-In",
+    subject: "4/11 Check-In",
+    sender: "<b>Mac Turner</b> (allen@bostonshairdos.com)",
+    date: "Apr 11",
+    unread: true,
+    body: `
+    <p>Hey Jonas,</p>
+<p>I know it&#39;s been a few weeks, I&#39;m sorry. Undercover isn&#39;t my strength but I suppose that&#39;s why they put me out here, right?</p>
+<p>Noah, Liz, and I established cover easily, blending in without an issue both in the office and out of it. Working at Abstergo might be the most painfully boring thing I&#39;ve ever done in my life though. At least I&#39;m not mopping floors like Noah is (even though he actually gets to explore more than a cubicle and a conference room...)</p>
+<p>Maintaining cover hasn&#39;t been super difficult, actually its been kinda fun? It&#39;s walking a fine line between letting myself go and having a semblance of fun but also remembering at all times what I&#39;m doing and that anyone around me could be a Templar waiting to chop my head off. I doubt that, though. Most of the people in the entertainment division are too focused on their try-hard work to even strike me as a Templar, I don&#39;t get the vibe off of any of them.</p>
+<p>Admittedly it&#39;s been a little rough. I wasn&#39;t made for being someone I&#39;m not and Liz has already given me several thinly-veiled lectures about making sure I&#39;m continuing the ruse at all times. I&#39;ve had the logical training for undercover work for years but having the theory versus acting on it are two completely different things yk?</p>
+<p>Tomorrow we&#39;re taking a business trip up to the Montreal HQ for a tour so maybe I&#39;ll see some Templars then lol. But I know it&#39;s all recon unless necessary. That&#39;s how this always goes, right? </p>
+<p>Anyway, if I don&#39;t turn off the VPN soon it&#39;ll look suspicious. I&#39;ll keep you updated, hope you&#39;re staying safe out there. Wherever you are.</p>
+    <blockquote>
+<p>NIT;EIP</p>
+<p>Mac Turner</p>
+</blockquote>
+
+       `
+  },
+
     {
     id: "love note",
     subject: "I didn&#39t know...",
@@ -36,7 +58,7 @@ While on the subject of hope, I hope you&#39;re doing okay out there – it&#39;
     <p>I didn&#39;t know that you were related to Nicholas Saylor! How come I have to find out that you&#39;re related to <em>multiple</em> legends through someone else&#39;s DNA? It&#39;s like you don&#39;t even like talking to me anymore, Julia. </p>
 <p>Jk jk, ofc. I miss you though. I&#39;m not expecting a reply – I know what deep undercover means – but I think about you a lot. If you need anything, just ask.</p>
     <blockquote>
-<p>NIT;EIP</p>
+<p>Love you,</p>
 <p>Jonas Webber</p>
 </blockquote>
 
