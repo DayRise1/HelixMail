@@ -1,10 +1,54 @@
 ﻿const emails = [
+    {
+    id: "ADB Update 5/2/2026",
+    subject: "We solved one problem (and found a new one) - ABD Update 2",
+    sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
+    date: "Apr 11",
+    unread: true,
+    body: `
+    <p>Well, I was right about one thing. Callum, Dmitry, and Jason were willing to go back into the Animus. So far I haven&#39;t noticed any prevalent showings of the Bleeding Effect but I&#39;m going to keep monitoring regardless. This is dangerous – I know that firsthand.</p>
+<p>Phineas Murdoch out of Nevada had alerted me to a commonality in their DNA in 1883 in Texas. The Wild West was in full swing, however the three ancestors less so. Cedric Kolchek and Mason Hunt were Assassins back then, but Jason&#39;s ancestor – Joshua Sinclair – was about as far as it gets without being a Templar. To put it lightly, Bill, he was an outlaw. A stagecoach-robbing, spittoon-spitting, stick-&#39;em-up-saying outlaw. Living a double life before it was cool, Sinclair operated all across the Wild West throughout his teen years before joining up with the Assassins later.</p>
+<p>All three had come to Bandera, Texas to investigate disappearances in the area. They later uncovered that the disappearances were being caused by Judge Benjamin Reynolds, who was a Templar looking for a Piece of Eden he was convinced the citizens of Bandera were harboring. He was right, actually, but it took him kidnapping a couple dozen people before he found it. </p>
+<p>The group started investigating one of the disappearances, leading to them meeting Sheriff Lewis Barnes. He was investigating as well, although really it was more like covering his own tracks. The trio managed to find a note inside mentioning the Piece of Eden, from what I can tell it definitely changed hands in the town before it landed where it did.</p>
+<p>Unfortunately, this investigated led to Kolchek shooting Sinclair in the shoulder after learning of his double-life (they seemed to have had some bad blood in the past). Kolchek decided to assist the Sheriff and Deputy of the town with some bandits, which led to him getting shot and kidnapped as part of their whole &quot;shake down everyone who breathes for the Piece of Eden&quot; thing.</p>
+<p>Hunt managed to talk Sinclair off of his frankly well-reasoned cliff and he agreed to work with them to solve the disappearances but was still rightfully pissed off at Kolchek considering he, well, shot him. It happens to the best of us.</p>
+<p>The trio met back up in a secret basement/prison in the Sheriff&#39;s office, just for Reynolds and the Sheriff to come down with their newest captive – a newsboy named Darius Hyland – who Sinclair promptly shot in the chest thinking that he was one of the hostiles. The boy did survive, by the way, but seemed to have a severe cough for the rest of his life.</p>
+<p>The boy was also harboring the Piece of Eden, one that I&#39;ve never seen before in any files. A Feather. Reynolds wielded it to fight the trio – but when Kolchek managed to get ahold of it an Isu appeared to them. And despite the fact that we&#39;ve seen a <em>lot</em> of Isu in the past ten years, this isn&#39;t one I recognized. He claimed his name was Icarus and requested their help. Not &#39;them&#39; as in their ancestors, but as in themselves. Today. Here. He claimed he&#39;d been shattered and that they need to collect the Feathers to restore him.</p>
+<p>Icarus encouraged Sinclair to join the Brotherhood (which according to my records he absolutely did) and told them to bury the Feather where no one would find it. Once the trio had finished taking out Reynolds and the Sheriff, they freed the prisoners and discussed what to do next. They hid the Feather in one of Sinclair&#39;s caches outside of town where its presumably sat ever since.</p>
+<p>Upon exiting the Animus, I gave the three of them a few more details on the Isu and our experiences with them. I&#39;ve warned them repeatedly that pursuing what Icarus wants is dangerous. Loki, Juno, Minerva, the list goes on of Isu that have had nothing but ulterior motives in helping us. Regardless, Dmitry, Jason, and Callum wish to pursue it. We&#39;re packing up now to take a road-trip down to Texas to recover the file.</p>
+<p>I&#39;ll keep you updated, Bill. For our sakes, I hope this ends well. 
+While on the subject of hope, I hope you&#39;re doing okay out there – it&#39;s been a while since anyone&#39;s heard from you. I know, I know, the whole &#39;secrecy is better for everyone&#39; thing, but even just a sign would be nice. Stay safe.</p>
+<blockquote>
+<p>NIT;EIP</p>
+<p>Jonas Webber</p>
+</blockquote>
+
+       `
+  },
+
+    {
+    id: "love note",
+    subject: "I didn&#39t know...",
+    sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
+    date: "Apr 10",
+    unread: true,
+    body: `
+    <p>I didn&#39;t know that you were related to Nicholas Saylor! How come I have to find out that you&#39;re related to <em>multiple</em> legends through someone else&#39;s DNA? It&#39;s like you don&#39;t even like talking to me anymore, Julia. </p>
+<p>Jk jk, ofc. I miss you though. I&#39;m not expecting a reply – I know what deep undercover means – but I think about you a lot. If you need anything, just ask.</p>
+    <blockquote>
+<p>NIT;EIP</p>
+<p>Jonas Webber</p>
+</blockquote>
+
+       `
+  },
+
   {
     id: "Since you still have them...",
     subject: "Since you still have them...",
     sender: "<b>Phineas Murdoch</b> (alfonse@bostonshairdos.com)",
     date: "Apr 9",
-    unread: true,
+    unread: false,
     body: `
      <p>Hey Jonas, </p>
 <p>I hope you&#39;re doing well, my friend. Things out here are tough. That Abstergo warehouse in Nevada was exactly what we thought it was and we managed to delay it – at least for now. We&#39;re hanging in there though, cover&#39;s still intact and no one the wiser.</p>
@@ -23,7 +67,7 @@
     subject: "ADB Update 4/8/2026",
     sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
     date: "Apr 8",
-    unread: true,
+    unread: false,
     body: `
       <p>The mission was successful. Unfortunately that&#39;s the good news. We barely escaped the Templars by the skin of our teeth, Bill. I thought our guys were supposed to keep them occupied?
 Oh well, we tried our best with what we had.
