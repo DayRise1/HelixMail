@@ -60,7 +60,7 @@
     },
     {
     id: "ADB Update 5/2/2026",
-    subject: "We solved one problem (and found a new one) - ABD Update 2",
+    subject: "We solved one problem (and found a new one) - ADB Update 2",
     sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
     date: "Apr 11",
     unread: true,
