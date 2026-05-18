@@ -1,7 +1,66 @@
 ﻿const emails = [
+        {
+    id: "love note",
+    subject: "RE: I didn&#39t know...",
+    sender: "<b>Julia Robins</b> (ally@bostonshairdos.com)",
+    date: "Apr 13",
+    unread: true,
+    body: `
+    <p>I don&#39;t have long. I was writing out a brief and saw this. I&#39;m on a ticking clock, but know that I miss you too. You&#39;re my favorite person and I hope we can finish that dumb show you like so much when I get back. Hopefully I&#39;m almost out but I don&#39;t know. </p>
+<p>So many unknowns...</p>
+<p>Do me a favor? A search on Griffin Chase for me. He&#39;s in London, I think, and he might just be the key to all of this.</p>
+<blockquote>
+<p>Love you more,</p>
+<p>Julia</p>
+</blockquote>
+<hr>
+<h5 id="from-jonas-webber-asher-bostonshairdos-com-">From: Jonas Webber (asher@bostonshairdos.com)</h5>
+<h6 id="date-4-10">Date: 4/10</h6>
+<p>I didn&#39;t know that you were related to Nicholas Saylor! How come I have to find out that you&#39;re related to <em>multiple</em> legends through someone else&#39;s DNA? It&#39;s like you don&#39;t even like talking to me anymore, Julia. </p>
+<p>Jk jk, ofc. I miss you though. I&#39;m not expecting a reply – I know what deep undercover means – but I think about you a lot. If you need anything, just ask.</p>
+<blockquote>
+<p>Love you,</p>
+<p>Jonas</p>
+</blockquote>
+
+       `
+  },
+
+       {
+    id: "Check-In",
+    subject: "RE: 4/11 Check-In",
+    sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
+    date: "Apr 12",
+    unread: true,
+    body: `
+    <p>Mac, let me assure you that you&#39;re doing great. Noah and Liz are tough people to work with, everyone knows that, but you&#39;ve done better than most. </p>
+<p>The corporate world is boring as sin (source: I once was undercover for eight months and almost broke cover out of sheer boredom) but this is important. We need to know what the Dragon Project is and you&#39;re the closest team to it that we have. Keep going.</p>
+<p>Stay safe. I&#39;ll have your favorite coffee on hand when you get back lol</p>
+<blockquote>
+<p>NIT;EIP</p>
+<p>Jonas Webber</p>
+</blockquote>
+<hr>
+<h5 id="from-mac-turner-allen-bostonshairdos-com-">From: Mac Turner (allen@bostonshairdos.com)</h5>
+<h6 id="date-4-11">Date: 4/11</h6>
+<p>Hey Jonas,</p>
+<p>I know it&#39;s been a few weeks, I&#39;m sorry. Undercover isn&#39;t my strength but I suppose that&#39;s why they put me out here, right?</p>
+<p>Noah, Liz, and I established cover easily, blending in without an issue both in the office and out of it. Working at Abstergo might be the most painfully boring thing I&#39;ve ever done in my life though. At least I&#39;m not mopping floors like Noah is (even though he actually gets to explore more than a cubicle and a conference room...)</p>
+<p>Maintaining cover hasn&#39;t been super difficult, actually its been kinda fun? It&#39;s walking a fine line between letting myself go and having a semblance of fun but also remembering at all times what I&#39;m doing and that anyone around me could be a Templar waiting to chop my head off. I doubt that, though. Most of the people in the entertainment division are too focused on their try-hard work to even strike me as a Templar, I don&#39;t get the vibe off of any of them.</p>
+<p>Admittedly it&#39;s been a little rough. I wasn&#39;t made for being someone I&#39;m not and Liz has already given me several thinly-veiled lectures about making sure I&#39;m continuing the ruse at all times. I&#39;ve had the logical training for undercover work for years but having the theory versus acting on it are two completely different things yk?</p>
+<p>Tomorrow we&#39;re taking a business trip up to the Montreal HQ for a tour so maybe I&#39;ll see some Templars then lol. But I know it&#39;s all recon unless necessary. That&#39;s how this always goes, right? </p>
+<p>Anyway, if I don&#39;t turn off the VPN soon it&#39;ll look suspicious. I&#39;ll keep you updated, hope you&#39;re staying safe out there. Wherever you are.</p>
+<blockquote>
+<p>NIT;EIP</p>
+<p>Mac Turner</p>
+</blockquote>
+
+
+       `
+    },
     {
     id: "ADB Update 5/2/2026",
-    subject: "We solved one problem (and found a new one) - ADB Update 2",
+    subject: "We solved one problem (and found a new one) - ABD Update 2",
     sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
     date: "Apr 11",
     unread: true,
@@ -20,45 +79,6 @@
 While on the subject of hope, I hope you&#39;re doing okay out there – it&#39;s been a while since anyone&#39;s heard from you. I know, I know, the whole &#39;secrecy is better for everyone&#39; thing, but even just a sign would be nice. Stay safe.</p>
 <blockquote>
 <p>NIT;EIP</p>
-<p>Jonas Webber</p>
-</blockquote>
-
-       `
-  },
-
-   {
-    id: "Check-In",
-    subject: "4/11 Check-In",
-    sender: "<b>Mac Turner</b> (allen@bostonshairdos.com)",
-    date: "Apr 11",
-    unread: true,
-    body: `
-    <p>Hey Jonas,</p>
-<p>I know it&#39;s been a few weeks, I&#39;m sorry. Undercover isn&#39;t my strength but I suppose that&#39;s why they put me out here, right?</p>
-<p>Noah, Liz, and I established cover easily, blending in without an issue both in the office and out of it. Working at Abstergo might be the most painfully boring thing I&#39;ve ever done in my life though. At least I&#39;m not mopping floors like Noah is (even though he actually gets to explore more than a cubicle and a conference room...)</p>
-<p>Maintaining cover hasn&#39;t been super difficult, actually its been kinda fun? It&#39;s walking a fine line between letting myself go and having a semblance of fun but also remembering at all times what I&#39;m doing and that anyone around me could be a Templar waiting to chop my head off. I doubt that, though. Most of the people in the entertainment division are too focused on their try-hard work to even strike me as a Templar, I don&#39;t get the vibe off of any of them.</p>
-<p>Admittedly it&#39;s been a little rough. I wasn&#39;t made for being someone I&#39;m not and Liz has already given me several thinly-veiled lectures about making sure I&#39;m continuing the ruse at all times. I&#39;ve had the logical training for undercover work for years but having the theory versus acting on it are two completely different things yk?</p>
-<p>Tomorrow we&#39;re taking a business trip up to the Montreal HQ for a tour so maybe I&#39;ll see some Templars then lol. But I know it&#39;s all recon unless necessary. That&#39;s how this always goes, right? </p>
-<p>Anyway, if I don&#39;t turn off the VPN soon it&#39;ll look suspicious. I&#39;ll keep you updated, hope you&#39;re staying safe out there. Wherever you are.</p>
-    <blockquote>
-<p>NIT;EIP</p>
-<p>Mac Turner</p>
-</blockquote>
-
-       `
-  },
-
-    {
-    id: "love note",
-    subject: "I didn&#39t know...",
-    sender: "<b>Jonas Webber</b> (asher@bostonshairdos.com)",
-    date: "Apr 10",
-    unread: true,
-    body: `
-    <p>I didn&#39;t know that you were related to Nicholas Saylor! How come I have to find out that you&#39;re related to <em>multiple</em> legends through someone else&#39;s DNA? It&#39;s like you don&#39;t even like talking to me anymore, Julia. </p>
-<p>Jk jk, ofc. I miss you though. I&#39;m not expecting a reply – I know what deep undercover means – but I think about you a lot. If you need anything, just ask.</p>
-    <blockquote>
-<p>Love you,</p>
 <p>Jonas Webber</p>
 </blockquote>
 
